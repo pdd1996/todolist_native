@@ -23,10 +23,10 @@ body {
 
 .top_bar {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
-    right: 0; 
-    height: 30%; 
+    right: 0;
+    height: 30%;
 }
 
 .top_bar div {
@@ -37,7 +37,7 @@ body {
 .top_bar .today {
     font-size: 64px;
     margin: 0 0 0 20%;
-    
+
 }
 
 .top_bar .time {
@@ -46,11 +46,11 @@ body {
     margin: 2% 10% 0 20%;
 }
 .content {
-    position: absolute; 
-    top: 30%; 
-    left: 0; 
-    right: 0; 
-    height: 50%; 
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    height: 50%;
 }
 
 .content ul {
@@ -79,7 +79,7 @@ body {
 
 .content ul li span {
     flex: 1;
-    margin-left: 30px;
+    margin-left: 22px;
 }
 
 .content ul li button {
@@ -104,10 +104,10 @@ body {
 }
 
 .bottom_bar {
-    position: absolute; 
-    top: 75%; 
-    left: 0; 
-    right: 0; 
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
     height: 25%;
 }
 
@@ -115,12 +115,17 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+}
+
+.bottom_bar form label {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .bottom_bar form input {
-    margin: 0;
-    width: 50%;
+    width: 85%;
+    min-width: 850px;
     height: 80px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -129,14 +134,14 @@ body {
 }
 
 .bottom_bar form button {
-    width: 120px;
-    height: 70px;
-    margin-left: 1%;
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
     background-color: #e74c3c;
     color: #fff;
     border: none;
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 32px;
+    font-size: 28px;
     cursor: pointer;
 }
