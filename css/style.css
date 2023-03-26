@@ -43,7 +43,7 @@ body {
 .top_bar .time {
     font-size: 32px;
     display: block;
-    margin: 2% 10% 0 20%;
+    margin: 10px 10% 0 20%;
 }
 .content {
     position: absolute;
@@ -55,7 +55,7 @@ body {
 
 .content ul {
     width: 60%;
-    margin: 0 auto;
+    margin: 30px auto;
     list-style: none;
     padding: 0;
 }
