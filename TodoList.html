@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page_background">
+            <div class="top_bar">
+                <div>
+                    <span class="today">我的一天</span>
+                    <span class="time" id="time">时间</span>
+                </div>
+            </div>
+            <div class="content">
+                <!--显示-->
+                <ul class="list"></ul>
+            </div>
+            <div class="bottom_bar">
+                <form>
+                    <label>
+                        <input type="text" placeholder="添加任务" />
+                        <button type="submit">添加</button>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/date.js"></script>
+<script>
+    window.onload = function() {
+        showTime();
+    };
+</script>
+</html>

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+}
+
+.container {
+    height: 100vh;
+}
+
+.page_background {
+    width: 100%;
+    height: 100%;
+    background:  url('../image/img1.jpg') no-repeat;
+    background-size: cover;
+    /* z-index: 100; */
+}
+
+.top_bar {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    height: 30%; 
+}
+
+.top_bar div {
+    padding-top: 5%;
+    color: #fff;
+}
+
+.top_bar .today {
+    font-size: 64px;
+    margin: 0 0 0 20%;
+    
+}
+
+.top_bar .time {
+    font-size: 32px;
+    display: block;
+    margin: 2% 10% 0 20%;
+}
+.content {
+    position: absolute; 
+    top: 30%; 
+    left: 0; 
+    right: 0; 
+    height: 50%; 
+}
+
+.content ul {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.content ul li input {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.content ul li span {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.content ul li button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.content ul li.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.content ul li.completed button {
+    background-color: #ccc;
+}
+
+.bottom_bar {
+    position: absolute; 
+    top: 75%; 
+    left: 0; 
+    right: 0; 
+    height: 25%;
+}
+
+.bottom_bar form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.bottom_bar form input {
+    margin: 0;
+    width: 50%;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 32px;
+}
+
+.bottom_bar form button {
+    width: 120px;
+    height: 70px;
+    margin-left: 1%;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 32px;
+    cursor: pointer;
+}
