@@ -79,7 +79,7 @@ body {
 
 .content ul li span {
     flex: 1;
-    margin-left: 30px;
+    margin-left: 22px;
 }
 
 .content ul li button {
@@ -118,9 +118,14 @@ body {
     align-items: center; 
 }
 
+.bottom_bar form label {
+    width: 60%;
+    margin: 0 auto;
+}
+
 .bottom_bar form input {
-    margin: 0;
-    width: 50%;
+    width: 85%;
+    min-width: 850px;
     height: 80px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -129,14 +134,14 @@ body {
 }
 
 .bottom_bar form button {
-    width: 120px;
-    height: 70px;
-    margin-left: 1%;
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
     background-color: #e74c3c;
     color: #fff;
     border: none;
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 32px;
+    font-size: 28px;
     cursor: pointer;
 }
