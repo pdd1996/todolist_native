@@ -1,5 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/modules.xml
+/TodoList_native.iml
+vcs.xml
+
 # Editor-based HTTP Client requests
 /httpRequests/
