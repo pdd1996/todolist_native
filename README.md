@@ -1,11 +1,11 @@
 # 原生TodoList
 ## 基本使用
+### 第一步
 ```
-// 第一步：git
 git clone https://github.com/pdd1996/todolist_native.git
-
-// 第二步：双击HTML
 ```
+### 第二步
+双击 **TodoList.html**
 ## 简单介绍
 使用原生JavaScript实现TodoList
 ## 功能介绍
