@@ -1,6 +1,11 @@
 # 原生TodoList
-## 安装
-`git clone https://github.com/pdd1996/todolist_native.git`
+## 基本使用
+```
+// 第一步：git
+git clone https://github.com/pdd1996/todolist_native.git
+
+// 第二步：双击HTML
+```
 ## 简单介绍
 使用原生JavaScript实现TodoList
 ## 功能介绍
@@ -10,3 +15,5 @@
 ## 后续改进
 1. - [ ] 编辑一个todo项
 2. - [ ] 当前存在已完成和未完成的todo项, 再新增一个todo项, 如何将新增的todo项放入未完成的队列
+## License
+MIT
